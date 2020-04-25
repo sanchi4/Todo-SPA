@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
+  background: #101452;
+  padding: 30px;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list {
+  margin-top: 500px;
+  background: #101222;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px rgba(46, 20, 197, 0.15);
+  margin:0 auto;
+  max-width: 600px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo {
+  background: #634aaa;
+  box-shadow: 1px 1px 1px rgba(46, 20, 197, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
   display: flex;
-  flex-direction: column;
+  font-weight: bold;
+  font-size: medium;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: aqua;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.input{
+  background: #634aaa;
+  box-shadow: 1px 1px 1px  rgba(46, 20, 197, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  color: aqua;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  background: #634aaa;
+  box-shadow: 1px 1px 1px rgba(46, 20, 197, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  color: aqua;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: space-between;
 }
